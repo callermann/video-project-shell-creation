@@ -1,4 +1,4 @@
-﻿$subDirs = "After Effects", "Clips", "Exports", "Images", "Music", "Sound Effects", "Thumbnails"
+﻿$subDirs = "After Effects", "Clips", "Exports", "Images", "Music", "Premiere", "Sound Effects", "Thumbnails"
 
 
 if($args.Count -eq 1) {
@@ -28,5 +28,6 @@ else {
         }
     }
 }
+
 
 Read-Host "Press Enter to continue..."
